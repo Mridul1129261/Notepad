@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="icon" href="https://blogs.windows.com/wp-content/uploads/prod/sites/44/2021/12/Win-Notepad.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="rules">
+    <h3><span class="cross" id="close">X</span> Instructions</h3>
+    <ol>
+        <li>Start making notes by typing in the green textbox</li>
+        <li>Click/tap <button id="icon"><u>U</u></button> to make text <u>underlined</u> (click again to disable) </li>
+        <li>Click/tap <button id="icon"><b>B</b></button> to make text <b>bold</b>, (click again to disable)</li>
+        <li>Click/tap <span id="icon">Copy</span> to copy all text in the textbox to clipboard.</li>
+        <li>Click/tap <span id="icon">Save</span> to save a note to <span id="icon">Saved Notes</span> </li>
+        <li>Click/tap <span id="edit">Edit</span> to edit the saved note.</li>
+        <li>Click/tap<span class="cross">X</span> to close instructions.</li>
+    </ol>
+</section>
+<header id="tools">
+    <span class="tool" title="Instructions" id="instructions">Info</span>
+    <span class="tool" title="Saved Notes" id="AllNotes">Saved Notes</span>
+    <button class="tool"  title="underline" id="underlineme" type="button" data-cmd="underline">
+        <u>U</u></button>
+    <button class="tool" title="bold" id="boldme" type="button" data-cmd="bold">
+        <b>B</b></button>
+        <span class="tool" title="copy"id="select">Copy</span>
+        <span class="tool" title="Save"id="new">Save</span>
+</header>
+<main id="main">
+<iframe id="output" name="textField"></iframe>
+</main>
+<section id="notedNotes"><h4><span class="cross"id="closeNotes">X</span> Saved Notes</h4></section>
+<footer id="footer">Made with ❤️ by Mridul</footer>
+<script src="main.js"></script>
+</body>
+</html>
