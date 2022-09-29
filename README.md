@@ -12,7 +12,7 @@ Hackathon Information
 |4. User can see the list of notes made by user                             |
 |5. User can create a new note and can switch between notes                 |
 |                                                                           |
-|If we refresh the page and everything is reset there is no issue.          |
+| If we refresh the page and everything is reset there is no issue.          |
 |                                                                           |
 |Criteria of judgement:                                                     |
 |- Responsive web app.                                                      |
