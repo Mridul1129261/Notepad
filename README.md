@@ -1,5 +1,6 @@
-# Notepad
-This project is a submission for a Hackathon hosted by Devsnest.
+# Notepad - https://temp-notepad.netlify.app/
+
+This project is a submission for a Hackathon hosted by __Devsnest__.
 
 Hackathon Information
 _________________________________________________________________________________________________________________________________________________________________________
