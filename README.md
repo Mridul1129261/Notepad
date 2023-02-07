@@ -1,5 +1,4 @@
 # Notepad 
-
 This project is a submission for a Hackathon hosted by __Devsnest__.
 
 Hackathon Information
