@@ -1,4 +1,4 @@
-# Notepad - https://temp-notepad.netlify.app/
+# Notepad 
 
 This project is a submission for a Hackathon hosted by __Devsnest__.
 
